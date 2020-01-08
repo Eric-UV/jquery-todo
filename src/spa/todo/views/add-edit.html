@@ -1,0 +1,12 @@
+<div>
+    <form id="todo-form">
+        <input type="text" name="name" id="name" value="{{todo.getName}}">
+        <input type="datetime-local" name="date" id="date" value="{{todo.getDate}}">
+        <select name="status" id="status">
+            <option value="1">Active</option>
+            <option value="2">Done</option>
+        </select>
+        <input id="save-edit" type="button" value="Save">
+        <input type="button" value="Cancel">
+    </form>
+</div>

@@ -1,0 +1,28 @@
+{
+  "name": "jquery-todo",
+  "version": "1.0.0",
+  "description": "A simple app that uses jquery",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html -p 5000",
+    "build": "parcel build src/main.js"
+  },
+  "keywords": [
+    "jquery",
+    "demo",
+    "app"
+  ],
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "author": "Eric D. Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.5.3",
+    "jquery": "^3.4.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
