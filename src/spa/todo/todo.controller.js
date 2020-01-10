@@ -14,8 +14,7 @@ const view = function(template, params) {
 
 export default {
 
-    index: function() {
-        console.log(todoRepository.getAll());
+    index: function() {        
         return view(indexTemplate, todoRepository.getAll());
     },
     showNewView: function() {
