@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.5.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
