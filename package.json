@@ -18,7 +18,7 @@
   "author": "Eric D. Gómez",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "jquery": "^3.4.1",
     "uuid": "^3.3.3"
   },
